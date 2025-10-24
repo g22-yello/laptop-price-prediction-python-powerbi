@@ -5,6 +5,9 @@
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Modeling-green?logo=scikitlearn)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
+![](img1.jpg)
+
+---
 ---
 
 ## 📘 Overview  
@@ -86,9 +89,9 @@ The project concludes with a business-ready Power BI dashboard and presentation 
 
 ---
 
-## 📊 Power BI Dashboard Preview  
-> *(Add your screenshot here once ready)*  
-![Dashboard Screenshot](images/powerbi_dashboard.png)
-
+## 📊 Power BI Dashboard Preview   
+![Dashboard Screenshot](dashboard1.jpg)
+![Dashboard Screenshot](dashboard2.jpg)
+![Dashboard Screenshot](dashboard3.jpg)
 ---
 
