@@ -83,7 +83,7 @@ The project concludes with a business-ready Power BI dashboard and presentation 
 - Achieved accurate laptop price predictions with a robust model.  
 - Identified **top predictors**: RAM, Screen Resolution (X_res, Y_res), and SSD capacity.  
 - Created a **dynamic Power BI dashboard** showcasing data trends and KPIs.  
-- Compiled results and visuals into a **Capstone_project2_ppt pdf**.  
+- Compiled results and visuals into a **Capstone_project2_ppt**.  
 
 ---
 
