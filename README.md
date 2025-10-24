@@ -88,7 +88,7 @@ The project concludes with a business-ready Power BI dashboard and presentation 
 ---
 
 ## 📊 Power BI Dashboard Preview   
-![Dashboard Screenshot](dashboard 1.jpg)
+![Dashboard Screenshot](dashboard1.jpg)
 ![Dashboard Screenshot](dashboard2.jpg)
 ![Dashboard Screenshot](dashboard3.jpg)
 ---
