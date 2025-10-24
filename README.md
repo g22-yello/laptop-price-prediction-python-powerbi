@@ -1,6 +1,3 @@
-# Laptop_price_prediction-using-ML-with-Python-Power-BI
-Capstone DS project: Predict laptop prices using Machine Learning with Python and visualize insights with Power BI. Includes data preprocessing, EDA, feature engineering, model training (Linear Regression, Random Forest, Gradient Boosting), hyperparameter tuning, and interactive interface, Business Insights and dashboard
-
 # 💻 Capstone Project 2: Laptop Price Prediction using Machine Learning (Python) & Power BI  
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
@@ -13,7 +10,7 @@ Capstone DS project: Predict laptop prices using Machine Learning with Python an
 ## 📘 Overview  
 This project focuses on predicting **laptop prices** using **Machine Learning** techniques in **Python**, complemented by an **interactive Power BI dashboard** for insightful visual analysis.  
 
-The objective is to build a predictive model capable of estimating laptop prices based on technical specifications such as brand, processor, RAM, storage, GPU, and display.  
+The objective is to build a predictive model capable of estimating laptop prices based on technical specifications such as Company, model type, Inches, ScreenResolution, Cpu, Ram, Memory, Gpu, OpSys, Weight, Price  
 The project concludes with a business-ready Power BI dashboard and presentation summarizing key findings.  
 
 ---
@@ -21,14 +18,7 @@ The project concludes with a business-ready Power BI dashboard and presentation 
 ## 📊 Dataset  
 - **Source:** Publicly available dataset (e.g., Kaggle or web-scraped data).  
 - **Description:** The dataset includes specifications of laptops with features such as:  
-  - Brand / Company  
-  - Type Name  
-  - RAM  
-  - Storage (HDD / SSD)  
-  - GPU  
-  - CPU  
-  - Screen Size & Resolution  
-  - Operating System  
+  - Unnamed: 0.1, Unnamed: 0, Company, model type, Inches, ScreenResolution, Cpu, Ram, Memory, Gpu, OpSys, Weight, Price( feature variable) 
   - Price (Target Variable)  
 
 ---
@@ -37,10 +27,10 @@ The project concludes with a business-ready Power BI dashboard and presentation 
 | Category | Tools Used |
 |-----------|-------------|
 | **Programming Language** | Python |
-| **Libraries** | pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost |
+| **Libraries** | pandas, numpy, matplotlib, seaborn, scikit-learn |
 | **Visualization** | Power BI |
 | **Presentation** | Microsoft PowerPoint |
-| **IDE** | Jupyter Notebook / VS Code |
+| **IDE** | colab/ Jupyter Notebook  |
 
 ---
 
@@ -53,16 +43,18 @@ The project concludes with a business-ready Power BI dashboard and presentation 
 ### 2️⃣ Data Preprocessing  
 - Handled missing values, duplicates, and outliers.  
 - Encoded categorical variables.  
-- Normalized numerical features for consistent scaling.  
-
-### 3️⃣ Feature Engineering  
-- Derived new insights from existing columns (e.g., pixel density, storage type).  
+- Normalized numerical features for consistent scaling.
 - Removed redundant or non-informative columns.  
+
 
 ### 4️⃣ Exploratory Data Analysis (EDA)  
 - Visualized data trends and correlations.  
 - Identified key variables influencing laptop prices.  
-- Used heatmaps, histograms, and pairplots for pattern discovery.  
+- Used heatmaps, histograms, and pairplots for pattern discovery.
+
+### 3️⃣ Feature Selection
+- Selecting relevent feature columns for modelling
+- Log transformed Price column used
 
 ### 5️⃣ Model Development  
 - Split data into training and test sets.  
@@ -70,27 +62,27 @@ The project concludes with a business-ready Power BI dashboard and presentation 
 - Evaluated models using metrics like **RMSE**, **R²**, and **MAE**.  
 
 ### 6️⃣ Hyperparameter Tuning  
-- Used **GridSearchCV** for model optimization.  
+- Used **RandomizedSearchCV** for model optimization.  
 - Selected the best-performing model for final deployment.  
 
 ### 7️⃣ Real-Time Predictions  
-- Built a prediction function to estimate laptop prices from user input.  
+- Built a interactive prediction function to estimate laptop prices from user input.  
 
 ### 8️⃣ Power BI Dashboard  
 - Imported cleaned dataset into Power BI.  
 - Designed interactive visuals and filters for:  
-  - Average price by brand  
-  - Price trends by RAM, CPU, GPU  
-  - Price distribution by storage type or OS  
-- Developed an executive summary for business stakeholders.  
+  -  Overview
+  - Most preffered features
+  - Model performance
+- Developed an executive summary for business stakeholders. (Overview)
 
 ---
 
 ## 📈 Results & Insights  
 - Achieved accurate laptop price predictions with a robust model.  
-- Identified **top predictors**: RAM, Processor Type, GPU, and Storage.  
+- Identified **top predictors**: RAM, Screen Resolution (X_res, Y_res), and SSD capacity.  
 - Created a **dynamic Power BI dashboard** showcasing data trends and KPIs.  
-- Compiled results and visuals into a **final PowerPoint presentation**.  
+- Compiled results and visuals into a **Capstone_project2_ppt pdf**.  
 
 ---
 
@@ -100,9 +92,3 @@ The project concludes with a business-ready Power BI dashboard and presentation 
 
 ---
 
-## ▶️ How to Run  
-
-### 1. Clone the Repository  
-```bash
-git clone https://github.com/yourusername/Capstone_project2_Laptop_price_prediction-using-ML-with-Python-PowerBI.git
-cd Capstone_project2_Laptop_price_prediction-using-ML-with-Python-PowerBI
