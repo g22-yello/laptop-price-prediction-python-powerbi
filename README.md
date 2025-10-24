@@ -6,8 +6,6 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ![](img1.jpg)
-
----
 ---
 
 ## 📘 Overview  
@@ -90,8 +88,23 @@ The project concludes with a business-ready Power BI dashboard and presentation 
 ---
 
 ## 📊 Power BI Dashboard Preview   
-![Dashboard Screenshot](dashboard1.jpg)
-![Dashboard Screenshot](dashboard2.jpg)
-![Dashboard Screenshot](dashboard3.jpg)
+!(dashboard 1.jpg)
+!(dashboard2.jpg)
+!(dashboard3.jpg)
 ---
 
+## 🚀 Key Insights
+
+- Brand Influence: Dell, Lenovo, and HP dominate in purchase volume, while Razer, LG, and MSI produce the most premium laptops with higher price points.
+- Type of Laptop: Notebooks dominate sales, followed by Ultrabooks and Gaming laptops. Gaming laptops and workstations are the most expensive due to higher specs.
+- Operating System: Windows 10 is the most popular OS but has minimal impact on price; pricing is driven mainly by hardware specs.
+- Processor: Intel Core i7 laptops occupy the premium range, while models with Intel Core i3 or AMD processors are among the most affordable.
+- Display Quality: Display quality strongly impacts price. 4K Ultra HD Retina and Quad HD+ displays are premium, while Full HD and lower resolutions are more common and more affordable.
+- Screen Technology: IPS displays and touchscreen features are popular and associated with higher price points.
+- Weight and Price: Weight does not directly correlate with price; however, higher-spec models tend to weigh more (typically >3.0 kg).
+- Resolution and Size: Higher screen resolutions and larger screen sizes correlate positively with price. Most buyers prefer around a 14-inch medium sized screen as well as medium resolutions considering the affordability.
+- RAM: Strong positive correlation between RAM size and price; 8 GB RAM is the most common among buyers. This is a major driver of price.
+- GPU: Laptops mostly feature Intel GPUs; Nvidia GPUs are premium and increase cost due to better performance.
+- Storage:  SSD and hybrid storage moderately impact price, while HDD and flash storage have minimal influence.
+
+*Final Insight: RAM, Screen Resolution (X_res, Y_res), and SSD capacity emerged as the top predictors of laptop price.*
