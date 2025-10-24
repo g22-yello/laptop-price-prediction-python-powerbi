@@ -5,7 +5,7 @@
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Modeling-green?logo=scikitlearn)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-![](img1.jpg)
+![](img1.png)
 ---
 
 ## 📘 Overview  
