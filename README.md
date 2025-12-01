@@ -59,7 +59,7 @@ The project concludes with a business-ready Power BI dashboard and presentation 
 
 ### 5️⃣ Model Development  
 - Split data into training and test sets.  
-- Implemented models including **Linear Regression**, **Random Forest**, and **XGBoost**.  
+- Implemented models including **Linear Regression**, **Random Forest**, **Gradient Boost** and **XGBoost**.  
 - Evaluated models using metrics like **RMSE**, **R²**, and **MAE**.  
 
 ### 6️⃣ Hyperparameter Tuning  
